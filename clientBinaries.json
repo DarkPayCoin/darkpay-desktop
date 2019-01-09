@@ -48,7 +48,7 @@
             "download": {
               "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-LINUX64.zip",
               "type": "zip",
-              "sha256": "1c73e7576e9977ed19f795b0d5a16a571275244ce72fbff5d3a2c2f28860e4fd",
+              "sha256": "29f4a1af4ececedab071a11c627efc5d0be487af41e2373af37501dfab2fca387088ed3e73b1bfc20cacc948d3500153bfaa6290eb6a4f4556d63d49d9232a49",
               "bin": "darkpaycoind"
             },
             "bin": "darkpaycoind",
