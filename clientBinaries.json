@@ -90,7 +90,7 @@
         "win": {
           "ia32": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-WIN32.zip,
+              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-WIN32.zip",
               "type": "zip",
               "sha256": "ba17b2869e1d10818e29caaeea8815ddea2ea13568529b91b19caa51a0aae153",
               "bin": "darkpaycoind.exe"
