@@ -1,65 +1,65 @@
 {
   "clients": {
-    "darkpaycoind": {
-      "version": "3.1.99.0",
+    "darkpayd": {
+      "version": "0.18.0.6",
       "platforms": {
         "linux": {
           "arm": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-ARM32.zip",
-              "type": "zip",
-              "sha256": "48c56fdd52aea9b81ab133d16de5b10d468a3ca47fe95b016dc49a0abbc9b434",
-              "bin": "darkpaycoind"
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6darkpay-0.18.0.6-arm-linux-gnueabihf.tar.gz",
+              "type": "tar",
+              "sha256": "816d4e18df33dc841a88701aeb3a868922344c47d22368650e9521395fba6ada",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd"
             },
-            "bin": "darkpaycoind",
+            "bin": "darkpayd",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
           },
           "ia32": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-ARM32.zip",
-              "type": "zip",
-              "sha256": "e433f71869e5b6be6f29353f0d5c45162ae52eeb1258a9abca3c9f916322e8d0",
-              "bin": "darkpaycoind"
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6darkpay-0.18.0.6-i686-pc-linux-gnu_nousb.tar.gz",
+              "type": "tar",
+              "sha256": "9cdef8c9d856d9d8204b124dce4e86d83eb1fd1a5b0f72211394daa874ce8ea1",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd"
             },
-            "bin": "darkpaycoind",
+            "bin": "darkpayd",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
           },
           "x64": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-LINUX64.tar.gz",
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6/darkpay-0.18.0.6-x86_64-linux-gnu_nousb.tar.gz",
               "type": "tar",
-              "sha256": "394c6965a4374fa2d73655f7e9cc0534b97214238ee61550f41e9a07221942a5",
-              "bin": "bin/darkpaycoind"
+              "sha256": "460fb7417c06b364cd644ac7789a0e74f140ea8863d898becf909cc7cb60dc46",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd"
             },
-            "bin": "darkpaycoind",
+            "bin": "darkpayd",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
@@ -68,20 +68,20 @@
         "mac": {
           "x64": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-OSX.zip",
-              "type": "zip",
-              "sha256": "37f9f69dfff22871bf7d59ea4baa66e0732b79a03679de316d7eaaa0fdb3fe59",
-              "bin": "darkpaycoind"
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6darkpay-0.18.0.6-osx64.tar.gz",
+              "type": "tar",
+              "sha256": "1c2cfc019dacbe789ef4794b998e5110ffc12b82a00d0e913cbab0e27074b588",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd"
             },
-            "bin": "darkpaycoind",
+            "bin": "darkpayd",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
@@ -90,40 +90,40 @@
         "win": {
           "ia32": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-WIN32.zip",
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6darkpay-0.18.0.6-win32.zip",
               "type": "zip",
-              "sha256": "ba17b2869e1d10818e29caaeea8815ddea2ea13568529b91b19caa51a0aae153",
-              "bin": "darkpaycoind.exe"
+              "sha256": "d0d964eee07c01e7d96c33791a1e07188f1f5a9480bdddf6a510820ba789cb1c",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd.exe"
             },
-            "bin": "darkpaycoind.exe",
+            "bin": "darkpayd.exe",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
           },
           "x64": {
             "download": {
-              "url": "https://github.com/DarkPayCoin/darkpay/releases/download/v3.1.99/DarkPay-3.1.99-WIN64.zip",
+              "url": "https://github.com/DarkPayCoin/darkpay-core/releases/download/v0.18.0.6darkpay-0.18.0.6-win64.zip",
               "type": "zip",
-              "sha256": "fdda08451e532a9deac8719c9c5f04c75680ed07b603c07608136f20be0bf68b",
-              "bin": "darkpaycoind.exe"
+              "sha256": "a07153f8958e5bb3cc16de3cf1e4f480e3c7dfe1ccab5769ab226128265c128c",
+              "bin": "darkpay-0.18.0.6/bin/darkpayd.exe"
             },
-            "bin": "darkpaycoind.exe",
+            "bin": "darkpayd.exe",
             "commands": {
               "sanity": {
                 "args": [
                   "-version"
                 ],
                 "output": [
-                  "DarkPayCoin Core Daemon",
-                  "3.1.99.0"
+                  "Darkpay Core Daemon",
+                  "0.18.0.6"
                 ]
               }
             }
